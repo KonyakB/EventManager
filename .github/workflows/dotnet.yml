@@ -30,7 +30,7 @@ jobs:
 
     - name: Restore dependencies (EventManager.Tests)
       run: dotnet restore
-      working-directory: EventManager.Tests
+      working-directory: Event\EventManager.Tests
     - name: Test (EventManager.Tests)
       run: dotnet test
-      working-directory: EventManager.Tests
+      working-directory: Event\EventManager.Tests
