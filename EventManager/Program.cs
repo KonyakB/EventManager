@@ -12,8 +12,8 @@ namespace MyEvents
             EventManager manager = new EventManager();
 
             // Create some sample events
-            Event codingWorkshop = new Event("Coding Workshop", "Workshop", 30);
-            Event techTalk = new Event("Tech Talk", "Seminar", 100);
+            Event codingWorkshop = new Event("Coding Workshop", "Workshop", 30, "Alsion 101");
+            Event techTalk = new Event("Tech Talk", "Seminar", 100, "Alsion concerthall");
 
             // Add events to the manager
             manager.AddEvent(codingWorkshop);

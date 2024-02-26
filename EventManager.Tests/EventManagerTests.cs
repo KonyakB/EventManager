@@ -9,7 +9,7 @@ namespace MyEvents.Tests
         public void AddEvent_IncreasesEventsCount()
         {
             var manager = new EventManager();
-            var evnt = new Event("Networking Event", "Meetup", 100);
+            var evnt = new Event("Networking Event", "Meetup", 100, "Alsik");
             manager.AddEvent(evnt);
 
             Assert.NotNull(manager.GetEvent("Networking Event"));
@@ -19,7 +19,7 @@ namespace MyEvents.Tests
         public void CancelEvent_MakesEventInactive()
         {
             var manager = new EventManager();
-            var evnt = new Event("Networking Event", "Meetup", 100);
+            var evnt = new Event("Networking Event", "Meetup", 100, "Alsik");
             manager.AddEvent(evnt);
             manager.CancelEvent("Networking Event");
 
