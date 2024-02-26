@@ -22,11 +22,11 @@ jobs:
         dotnet-version: 7.0.x
     - name: Restore dependencies (EventManager)
       run: dotnet restore
-      working-directory: EventManager
+      working-directory: Event/EventManager
 
     - name: Build (Project)
       run: dotnet build --no-restore
-      working-directory: EventManager
+      working-directory: Event/EventManager
 
     - name: Restore dependencies (EventManager.Tests)
       run: dotnet restore
