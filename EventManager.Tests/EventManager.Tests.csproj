@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\EventManager\EventManager\MyEvents.csproj" />
+    <ProjectReference Include="..\EventManager\EventManager.csproj" />
   </ItemGroup>
 
 </Project>
